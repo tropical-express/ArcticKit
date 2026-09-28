@@ -154,7 +154,7 @@ Run the automated checks and build with PowerShell:
 ```
 
 This runs `go test ./...`, `go vet ./...`, and builds
-`output\arctickit-test.exe`. To also launch the TUI for a manual smoke test:
+`arctickit.exe` in the project root. To also launch the TUI for a manual smoke test:
 
 ```powershell
 .\test.ps1 -RunApp
